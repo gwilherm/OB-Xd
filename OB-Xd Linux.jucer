@@ -96,6 +96,8 @@
       <CONFIGURATIONS>
         <CONFIGURATION name="Release64" isDebug="0" optimisation="3" targetName="OB-Xd"
                        linuxArchitecture="-m64" enablePluginBinaryCopyStep="1" linkTimeOptimisation="1"/>
+        <CONFIGURATION name="Debug64" isDebug="1" optimisation="1" targetName="OB-Xd"
+                       linuxArchitecture="-m64" enablePluginBinaryCopyStep="1" linkTimeOptimisation="1"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_gui_extra" path="../../../../usr/share/juce/modules"/>
